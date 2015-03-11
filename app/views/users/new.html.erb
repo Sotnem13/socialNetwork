@@ -1,0 +1,25 @@
+
+<% if @user.errors.any? %>
+	<% for message in @user.errors.full_messages %>
+	<div class="alert alert-danger fade in">
+		<button class="close" data-dismiss="alert">×</button>
+		<%= message %>
+	</div>
+	<% end %>
+
+<% end %>
+
+
+
+<%= form_for @user,url: sign_up_path, html: { class: "form-signin" } do |f| %>
+
+	<%= f.text_field :firstname, class: "form-control", placeholder: "First Name" %>
+	<%= f.text_field :lastname,  class: "form-control", placeholder: "Last Name" %>
+	<%= f.text_field :email,     class: "form-control", placeholder: "Email address" %>
+	<%= f.password_field :password, class: "form-control", placeholder: "Password"%>
+	<%= f.password_field :password_confirmation, class: "form-control", placeholder: "Password confirmation" %>
+	<%= f.date_select :birthday, { start_year: 1901 },  class: "form-control" %>
+	<p> </p>
+	<%= f.submit "Sign up", class: "btn btn-lg btn-primary btn-block" %>
+
+<% end %>	

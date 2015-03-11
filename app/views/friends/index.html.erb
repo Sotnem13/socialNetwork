@@ -1,0 +1,30 @@
+<% @friends.reverse_each do |friend| %>
+<% user = User.find_by_id friend.user2_id %>
+<div class="corgi_feed_well">
+            <div class="individual_feed_item">
+              <div class="feed_item">
+                <div class="feed_body">
+
+					<div class="row">
+	                	<div class="feed_profile_pic">
+	                        <%= link_to image_tag( user_ava( user ), width: '150px'), user %>
+	                    </div>
+	  					
+	  					 <div class="text-center">
+	                    	<h3><%= link_to "#{user.firstname} #{user.lastname}", user %></h3>
+	                    	<%= link_to "Send message", "" %>  | 
+	                    	<%= link_to "Photos", user_photos_path( user ) %> | 
+	                    	<%= link_to "Friends", user_friend_path( user ) %> | 
+	                    	<%= link_to "Delete", delete_friend_path( user ), method: :post %>     
+	                    </div>
+
+					</div>
+
+                </div>
+              </div>
+            </div>
+</div>
+
+
+
+<%end%>

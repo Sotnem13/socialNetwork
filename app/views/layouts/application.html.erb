@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SocialNetwork</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="...">
+      </a>
+
+    </div>
+
+
+    <ul class="nav navbar-nav navbar-right">
+	
+	<% if signed_in? %>
+
+	  	<li> <p class="navbar-text"> Signed in as <%= link_to current_user.firstname, current_user %></p> </li>
+		<li> <p class="navbar-text"> <%= link_to "Sign Out", sign_out_path %></p> </li>
+	
+	<%end%>
+
+	</ul>
+
+  </div>
+
+</nav>
+
+
+
+<div class="container">
+	<div class="row">
+	<% if signed_in? %>
+	  <div class="col-md-3">
+	  	<div class="corgi_feed_well">
+	  		<ul class="list-group">
+			  <li class="list-group-item"><%= link_to "My Profile", current_user %> </li>
+			  <li class="list-group-item"><%= link_to "My Friends", friends_path %></li>
+			  <li class="list-group-item"><%= link_to "My Messages", messages_path %></li>
+			  <li class="list-group-item"><%= link_to "My Photos",  user_photos_path( current_user ) %></li>
+			  <li class="list-group-item"><%= link_to "My Settings", settings_path %></li>
+			</ul>
+	    </div>
+	  </div>
+	  
+	  <div class="col-md-9">
+	<% else %>
+	  <div class="col-md-12">
+	<% end %>
+		
+		<%= render partial: "/shared/flash_messages", flash: flash %> 
+
+	  	<%= yield %>
+	
+	  </div>
+	</div>
+<div>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+
+</body>
+</html>

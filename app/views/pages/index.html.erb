@@ -1,0 +1,120 @@
+
+<div class="row">
+  <div class="col-md-4">
+
+	<div class="thumbnail">
+	      <%= image_tag( user_ava( @user ), width: '242px') %>
+	      <div class="caption">
+	       <h3><%= link_to "#{@user.firstname} #{@user.lastname}", @user %></h3>
+	       <p>Birthday: <%= @user.birthday %></p>
+
+
+	       <p><%= link_to "Send a message", user_message_path(@user) %></p>
+
+	       <p><%= link_to "Photos", user_photos_path(@user) %></p>
+		     <% if @add_friend %>
+		     <p><%= link_to "Add Friend", add_friend_path(@user) %></p>
+	       <% end %>
+	      </div>
+	</div>
+  </div>
+
+  <div class="col-md-8">
+
+  	<div class="corgi_feed_well">
+            <div class="individual_feed_item">
+              <div class="feed_item">
+                
+
+                <div class="comment_area text-center">
+   
+                  <p>New Post</p>
+                  <%= form_for @post = Post.new, url: post_path do |f| %>
+                  		<%= f.hidden_field :user_id, value: @user.id %>
+       					      <%= f.text_area :content, rows: "3", class: "form-control" %>
+       					      <%= f.submit "Post", class: "btn" %>
+                  <% end -%> 
+
+                 
+                </div>	
+            
+                <div class="feed_body">
+   
+                    <div class="text-center">
+                       <a href="#" class="show_comment_link">New Post</a> 
+                    </div>
+
+                </div>
+
+              </div>
+            </div>
+    </div>
+
+   <% @posts.reverse_each do |post| %>
+   <% owner = User.find_by_id( post.owner_id ) %>
+   <% comments = post.postComments %>
+	<div class="corgi_feed_well">
+            <div class="individual_feed_item">
+              <div class="feed_item">
+                <div class="feed_body">
+                  <div class="row">
+                    <div class="feed_profile_pic">
+                       <%= link_to image_tag(  user_ava( owner ) , class: 'meta_image' ), owner %> 
+                    </div>
+                    <div class="feed_text">
+                    <p><%= post.content %></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="comment_area">
+                
+                <% comments.each do |comment| %>
+                  <div class="feed_body">
+                    <div class="row">
+                      <div class="feed_profile_pic">
+                         <%= link_to image_tag( user_ava( comment.user ), class: 'meta_image' ), comment.user %> 
+                      </div>
+                      <div class="feed_text">
+                        <p><%= comment.content %></p>
+                      </div>
+                       <div class="bottom_right">
+                       <% if comment.user == owner || comment.user == current_user %>
+                        <p><%= link_to "Delete", comment_delete_path(comment), method: :post %></p>
+                       <% end %>
+                       </div>
+                    </div>
+                  </div>
+                <hr class="feed_hr" />
+                <% end %>
+
+                  <%= form_for :post_comment, url: comment_path do |f| %>
+                      <%= f.hidden_field :user_id, value: current_user.id %>
+                      <%= f.hidden_field :post_id, value: post.id %>
+                      <%= f.text_area :content, rows: "3", class: "form-control" %>
+                      <%= f.submit "Comment", class: "btn" %>
+                  <% end -%> 
+
+                </div>
+                <hr class="feed_hr" />
+                <div class="bottom_meta">
+                  <div class="row">
+                    <div class="bottom_right">
+                      <%= link_to "#{owner.firstname} #{owner.lastname}", owner %> <span>|</span> <a href="#" class="show_comment_link">comment</a> <span>|</span>	
+                      <% if @user == current_user || owner == current_user %>
+                       <%= link_to "Delete", post_delete_path(post), method: :post %>
+                      <% end %>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+    </div>
+
+
+   <% end %>
+
+	
+  </div>
+</div>

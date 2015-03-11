@@ -1,0 +1,44 @@
+
+<div class="corgi_feed_well text-center">
+	
+<% if @user.errors.any? %>
+	<% for message in @user.errors.full_messages %>
+	<div class="alert alert-danger fade in">
+		<button class="close" data-dismiss="alert">×</button>
+		<%= message %>
+	</div>
+	<% end %>
+
+<% end %>
+
+
+<%= form_for @user, url: url_change_path, html: { class: "form-signin" } do |f| %>
+
+	<%= f.text_field :url, class: "form-control", placeholder: "Url" %>
+	<p> </p>
+	<%= f.submit "Change url", class: "btn btn-lg btn-primary btn-block" %>
+
+<% end %>	
+
+<%= form_for @user, url: settings_path, html: { class: "form-signin" } do |f| %>
+
+	<%= f.text_field :firstname, class: "form-control", placeholder: "First Name" %>
+	<%= f.text_field :lastname,  class: "form-control", placeholder: "Last Name" %>
+	<%= f.text_field :email,     class: "form-control", placeholder: "Email address" %>
+	<%= f.date_select :birthday, { start_year: 1901 },  class: "form-control" %>
+	<p> </p>
+	<%= f.submit "Change", class: "btn btn-lg btn-primary btn-block" %>
+
+<% end %>	
+<%= form_for @user, url: password_change_path, html: { class: "form-signin" } do |f| %>
+	
+	<%= f.password_field :password_current, class: "form-control", placeholder: "Current password"%>
+	<%= f.password_field :password, class: "form-control", placeholder: "Password"%>
+	<%= f.password_field :password_confirmation, class: "form-control", placeholder: "Password confirmation" %>
+	<p> </p>
+	<%= f.submit "Change password", class: "btn btn-lg btn-primary btn-block" %>
+
+<% end %>
+
+
+</div>

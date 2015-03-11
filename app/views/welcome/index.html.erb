@@ -1,0 +1,66 @@
+
+<div class="row">
+  <div class="col-md-4">
+
+	<div class="thumbnail">
+	      <%= image_tag( "alsu.jpg", width: '242px') %>
+	      <div class="caption">
+	        <h3><%= "#{current_user.firstname} #{current_user.lastname}"%></h3>
+	        <p>
+	        	<%= params %>	
+	        </p>
+	      </div>
+	</div>
+  </div>
+
+  <div class="col-md-8">
+		<div class="thumbnail">
+
+		</div>
+
+
+	<div class="corgi_feed_well">
+            <div class="individual_feed_item">
+              <div class="feed_item">
+                <div class="feed_body">
+                  <div class="row">
+                    <div class="feed_profile_pic">
+                      <%= image_tag( "alsu.jpg", class: "meta_image" ) %>
+                    </div>
+                    <div class="feed_text">
+                      <p>Типо запись =)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment_area">
+                  <p>Комментарий</p>
+                  <form>
+                    <textarea rows="3" class="span6"></textarea>
+                    <br/>
+                    <input type="submit" class="btn" />
+                  </form>
+                </div>
+                <hr class="feed_hr" />
+                <div class="bottom_meta">
+                  <div class="row">
+                    <div class="bottom_right">
+                      <a href="#">Алсу Минахметова</a> <span>|</span> <a href="#" class="show_comment_link">comment</a> 
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+
+	</div>
+	
+  </div>
+
+
+</div>
+
+
+
+	
+  
+
