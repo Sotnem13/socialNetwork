@@ -1,6 +1,18 @@
+ <div class="corgi_feed_well">
+        <div class="individual_feed_item">
+            <div class="feed_item">
+                <div class="feed_body text-center">
+                    <%= link_to "Upload Avatar",  upload_ava_path %> |
+                    <%= link_to "Upload Photo", upload_photo_path %>
+
+                </div>
+
+             </div>
+        </div>
+    </div>
+
 <div class="row">
     <div class="col-lg-12">
-
 
 <% @albums.each do |album| %>
 <% photo = album.photos.last %>
@@ -12,6 +24,7 @@
             </a> 
         </div>
 
+       
 <% end %>
 
 

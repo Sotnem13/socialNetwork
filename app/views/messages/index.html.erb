@@ -1,0 +1,13 @@
+<% @dialogs.each do |dialog| %>   
+    <div class="corgi_feed_well">
+        <div class="individual_feed_item">
+            <div class="feed_item">
+                <div class="feed_body">
+                    <%= dialog_ava( dialog ) %>
+                    <%= link_to dialog_name( dialog ), dialog_path( dialog ) %>
+                </div>
+
+             </div>
+        </div>
+    </div>
+<% end %>

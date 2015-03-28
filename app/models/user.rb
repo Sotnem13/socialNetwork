@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
 	has_secure_password
 
 	validates :firstname, :lastname, :email, presence: true
-	
+		
 	validates :email, format: { with: /.+@.+\..+/ }, uniqueness: { case_sensitive: false }
 	validates :url, format: { with: /([a-z]|\d)+/ }, uniqueness: { case_sensitive: false }, on: :update, allow_blank: true
 	

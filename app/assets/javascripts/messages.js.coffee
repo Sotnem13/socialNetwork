@@ -1,3 +1,10 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
+updateMessages =
+	poll: ->
+		setInterval(@mes,5000)
+
+	mes: ->
+		$.get('/get_messages/' + $("#chat").data('dialog') )
+
+jQuery ->
+    updateMessages.mes();
+	updateMessages.poll();

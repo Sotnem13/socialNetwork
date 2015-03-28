@@ -9,7 +9,7 @@
 	       <p>Birthday: <%= @user.birthday %></p>
 
 
-	       <p><%= link_to "Send a message", user_message_path(@user) %></p>
+	       <p><%= link_to "Send a message", user_dialog_path(@user) %></p>
 
 	       <p><%= link_to "Photos", user_photos_path(@user) %></p>
 		     <% if @add_friend %>

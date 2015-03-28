@@ -1,5 +1,7 @@
 <% @friends.reverse_each do |friend| %>
+
 <% user = User.find_by_id friend.user2_id %>
+
 <div class="corgi_feed_well">
             <div class="individual_feed_item">
               <div class="feed_item">
@@ -12,10 +14,13 @@
 	  					
 	  					 <div class="text-center">
 	                    	<h3><%= link_to "#{user.firstname} #{user.lastname}", user %></h3>
-	                    	<%= link_to "Send message", "" %>  | 
+	                    	<%= link_to "Send message", user_dialog_path( user ) %>  | 
 	                    	<%= link_to "Photos", user_photos_path( user ) %> | 
-	                    	<%= link_to "Friends", user_friend_path( user ) %> | 
-	                    	<%= link_to "Delete", delete_friend_path( user ), method: :post %>     
+	                    	<%= link_to "Friends", user_friend_path( user ) %> 
+	                    	<% if @edit %>
+	                    	| 
+	                    	<%= link_to "Delete", delete_friend_path( user ), method: :post %>   
+	                    	<% end %>  
 	                    </div>
 
 					</div>

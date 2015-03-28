@@ -5,7 +5,23 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
 
-  post "upload" => "photos#add_ava"
+  get  'messages' => "messages#index"
+
+
+  get ':user_id/dialog' => 'messages#create',  as: :user_dialog
+  get 'dialog/:dialog_id' => 'messages#dialog',  as: :dialog
+
+  get 'get_messages/:dialog_id' => 'messages#get'
+  
+  post 'send_message' => 'messages#send_message',  as: :send_message
+
+
+  post "upload_ava" => "photos#add_ava"
+  post "upload_photo" => "photos#add"
+
+  get  'upload_photo' => "photos#upload_photo"
+  get  'upload_ava' => "photos#upload_ava"
+
 
   root 'pages#index'
 
@@ -22,7 +38,6 @@ Rails.application.routes.draw do
   post 'delete_friend/:user_id'  => 'friends#destroy', as: :delete_friend
 
 
-  get 'messages' => 'pages#messages'
   get 'settings' => 'pages#settings'
 
   get ':user_id/photos',   to: 'photos#albums',   as: :user_photos
@@ -31,7 +46,6 @@ Rails.application.routes.draw do
   post 'delete_album/:album_id',   to: 'photos#destroy_album',   as: :delete_album
 
 
-  get ':user_id/message', to: 'pages#message',  as: :user_message
 
   post "post" => "posts#create"   
   post "post_delete/:post_id" => "posts#destroy", as: :post_delete

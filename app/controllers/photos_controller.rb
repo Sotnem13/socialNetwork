@@ -14,18 +14,24 @@ class PhotosController < ApplicationController
 	end
 
 	def add_ava
+		params[:album_name] = 'ava'
+		add
+	end
 
-		ava_album = Album.where( user_id: current_user.id, name: "ava" ).take
+	def add
+		uploaded_io = params[:photo]
+		redirect_to :back and flash[:error] = "=(" and return unless uploaded_io 
+		album = Album.where( user_id: current_user.id, name: params[:album_name] ).take
 
-		if ava_album.nil?
-			ava_album = Album.new
-			ava_album.user = current_user
-			ava_album.name = "ava"
-			ava_album.save
+		if album.nil?
+			album = Album.new
+			album.user = current_user
+			album.name = params[:album_name]
+			album.save
 		end
 
 		photo = Photo.new
-		photo.album = ava_album
+		photo.album = album
 		photo.user = current_user
 		photo.url = "/photos/#{Photo.last.id}"
 		uploaded_io = params[:photo]
@@ -33,15 +39,10 @@ class PhotosController < ApplicationController
   		File.open(Rails.root.join('public', 'photos', Photo.last.id.to_s), 'wb') do |file|
     		file.write(uploaded_io.read)
   		end
-  		flash[:succes] = "Uploaded"
+  		flash[:success] = "Uploaded"
   		photo.save
 
-
   		redirect_to :back
-	end
-
-	def add
-		
 	end
 
 	def destroy
@@ -57,6 +58,15 @@ class PhotosController < ApplicationController
 		redirect_to :back
 	
 	end
+
+	def upload_photo
+		
+	end
+
+	def upload_ava
+		
+	end
+
 
 
 end

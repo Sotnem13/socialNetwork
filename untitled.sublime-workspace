@@ -1,0 +1,613 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"find_",
+				"find_by_id"
+			],
+			[
+				"al",
+				"album"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"p",
+				"Photo"
+			],
+			[
+				"pho",
+				"photos"
+			],
+			[
+				"ava",
+				"ava_album"
+			],
+			[
+				"Fr",
+				"friend"
+			],
+			[
+				"f",
+				"friends"
+			],
+			[
+				"ow",
+				"owner"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"co",
+				"comment"
+			],
+			[
+				"c",
+				"comment"
+			],
+			[
+				"owner",
+				"owner_id"
+			],
+			[
+				"Cu",
+				"current_password"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"un",
+				"unless	unless … end"
+			],
+			[
+				"fi",
+				"firstname"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"ren",
+				"render"
+			],
+			[
+				"user_",
+				"user_id"
+			],
+			[
+				"Pos",
+				"post"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"pos",
+				"posts"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"ph",
+				"Photos"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"sign",
+				"sign_out"
+			],
+			[
+				"be",
+				"belongs_to"
+			],
+			[
+				"fl",
+				"flash	flash[…]"
+			],
+			[
+				"pra",
+				"params"
+			],
+			[
+				"cl",
+				"cla	ClassName = Struct .. do .. end"
+			],
+			[
+				"no",
+				"notice"
+			],
+			[
+				"si",
+				"sign_in"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"n",
+				"notice"
+			],
+			[
+				"fla",
+				"flash"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"app",
+				"app	application { .. }"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"b",
+				"button	Tag"
+			],
+			[
+				"e",
+				"eventObj"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"sle",
+				"selection"
+			],
+			[
+				"sel",
+				"selection"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"sele",
+				"selection"
+			],
+			[
+				"con",
+				"contentScript"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"UserO",
+				"userInfo"
+			],
+			[
+				"DI",
+				"div"
+			],
+			[
+				"ba",
+				"backgroundImage"
+			],
+			[
+				"ima",
+				"image"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"i",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 177.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"link_to",
+				"Snippet: link_to (path)"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"text",
+				"Snippet: form_for text_field"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 447.0
+	},
+	"console":
+	{
+		"height": 109.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sotnem/Документы/rails/socialNetwork"
+	],
+	"file_history":
+	[
+		"/home/sotnem/workspace1/VKgroup/settings",
+		"/home/sotnem/Рабочий стол/untitled.js",
+		"/home/sotnem/Рабочий стол/untitled.txt",
+		"/home/sotnem/Документы/javascript/index.html",
+		"/home/sotnem/Документы/webgl/index.html",
+		"/home/sotnem/Документы/rails/socialNetwork/config/initializers/assets.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/pages/index.html.erb",
+		"/home/sotnem/Документы/c/makefile",
+		"/home/sotnem/Документы/c/main.c",
+		"/home/sotnem/Документы/c/gtk.c",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/pages_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/layouts/application.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/stylesheets/photos.css.scss",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/javascripts/photos.js",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/stylesheets/application.css.scss",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/javascripts/photos.js.coffee",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/photos_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/posts_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/helpers/photos_helper.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/pages/photos.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/comments_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/application_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/models/album.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/models/photo.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/models/user.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/db/schema.rb",
+		"/home/sotnem/Документы/rails/damian-sowers-corgi-bootstrap-3c15fec/index.html",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/friends/index.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/db/migrate/20150310152756_create_albums.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/friends_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/settings_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/pages/settings.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/models/post.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/models/pages.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/config/application.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/pages/user_not_found",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/stylesheets/sessions.css.scss",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/shared/_flash_messages.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/users_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/config/routes.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/db/migrate/20150306174828_create_post_likes.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/db/migrate/20150309182910_create_pages.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/users/new.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/db/migrate/20150306174551_create_posts.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/db/migrate/20150306173033_create_users.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/db/migrate/20150306174925_create_post_comments.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/models/post_like.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/models/post_comment.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/sessions_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/helpers/sessions_helper.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/helpers/users_helper.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/sessions/new.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/welcome/index.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/helpers/application_helper.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/welcome_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/views/shared/ _flash_messages.html.erb",
+		"/home/sotnem/Документы/rails/my_app_for_test/app/controllers/application_controller.rb",
+		"/home/sotnem/Документы/rails/my_app_for_test/Gemfile",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/javascripts/corgi.js",
+		"/home/sotnem/Документы/add-ons Firefox/addon-sdk-1.17/python-lib/jetpack_sdk_env.py",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/javascripts/application.js",
+		"/home/sotnem/Документы/rails/socialNetwork/app/controllers/admin/welcome_controller.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/config/initializers/mime_types.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/log/development.log",
+		"/home/sotnem/Документы/rails/socialNetwork/config/environment.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/config/secrets.yml",
+		"/tmp/Text-1",
+		"/tmp/Text",
+		"/home/sotnem/Документы/add-ons Firefox/addon-sdk-1.17/python-lib/jetpack_sdk_env.pyc",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/stylesheets/corgi.css",
+		"/home/sotnem/Документы/rails/fa/index.html",
+		"/home/sotnem/Документы/rails/fa/js/corgi.js",
+		"/home/sotnem/Документы/rails/damian-sowers-corgi-bootstrap-3c15fec/css/corgi.css",
+		"/home/sotnem/Документы/rails/damian-sowers-corgi-bootstrap-3c15fec/css/elusive-webfont.css",
+		"/home/sotnem/Документы/rails/fa/index (копия).html",
+		"/home/sotnem/Документы/rails/socialNetwork/Gemfile",
+		"/home/sotnem/Документы/rails/socialNetwork/db/migrate/20150306173955_create_friends.rb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/stylesheets/application.scss",
+		"/home/sotnem/Документы/rails/socNet/config/routes.rb",
+		"/home/sotnem/Документы/rails/socNet/Gemfile",
+		"/home/sotnem/Документы/rails/socNet/app/controllers/pages_controller.rb",
+		"/home/sotnem/Документы/rails/socNet/app/controllers/registration_controller.rb",
+		"/home/sotnem/Документы/rails/socNet/app/views/registration/user_info.html.erb",
+		"/home/sotnem/Документы/rails/socNet/app/controllers/sessions_controller.rb",
+		"/home/sotnem/Документы/add-ons Firefox/Search_Addon/package.json",
+		"/home/sotnem/.cache/.fr-eJyN2P/harness-options.json",
+		"/home/sotnem/.cache/.fr-PY1hRz/resources/igtranslator/lib/config.js",
+		"/home/sotnem/.cache/.fr-ESldyS/resources/igtranslator/lib/firefox/firefox.js",
+		"/home/sotnem/.cache/.fr-wgA4yl/resources/igtranslator/lib/common.js",
+		"/home/sotnem/.cache/.fr-qiGBhj/chrome/content/tineyeSearch.js",
+		"/home/sotnem/.cache/.fr-0hib8C/resources/gsearch/lib/main.js",
+		"/home/sotnem/.cache/.fr-Foq3wc/resources/gsearch/data/get-text.js",
+		"/home/sotnem/Документы/rails/socNet/app/views/registration/new_user.html.erb",
+		"/home/sotnem/Документы/rails/socNet/app/views/sessions/new.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/.gitignore",
+		"/home/sotnem/Документы/rails/socialNetwork/README.rdoc",
+		"/home/sotnem/Документы/rails/socNet/app/views/pages/home.html.erb",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/stylesheets/styles.css",
+		"/home/sotnem/Документы/rails/socialNetwork/app/assets/stylesheets/application.css",
+		"/home/sotnem/Документы/add-ons Firefox/Search_Addon/lib/main.js",
+		"/home/sotnem/Документы/add-ons Firefox/my-addon/lib/main.js",
+		"/home/sotnem/Документы/add-ons Firefox/addon-sdk-1.17/lib/main.js",
+		"/home/sotnem/Документы/add-ons Firefox/addon-sdk-1.17/examples/toolbar-api/lib/main.js",
+		"/home/sotnem/.cache/.fr-CWZouZ/resources/ddg_for_firefox/lib/search-settings.js",
+		"/home/sotnem/.cache/.fr-OBDJdB/resources/ddg_for_firefox/lib/main.js",
+		"/home/sotnem/Документы/add-ons Firefox/Search_Addon/test/test-main.js",
+		"/home/sotnem/.cache/.fr-Pv2UK2/defaults/preferences/prefs.js",
+		"/home/sotnem/.cache/.fr-p7naQD/defaults/preferences/prefs.js",
+		"/home/sotnem/.cache/.fr-8M9G9q/harness-options.json",
+		"/home/sotnem/.cache/.fr-eAmUKQ/options.xul",
+		"/home/sotnem/.cache/.fr-jFuiBm/resources/igtranslator/lib/firefox/firefox.js",
+		"/home/sotnem/.cache/.fr-pMn1Z5/locales.json",
+		"/home/sotnem/.cache/.fr-HKVaHN/defaults/preferences/prefs.js",
+		"/home/sotnem/.cache/.fr-7zVNnt/defaults/preferences/prefs.js",
+		"/home/sotnem/Документы/add-ons Firefox/addon-sdk-1.17/examples/reddit-panel/lib/main.js",
+		"/home/sotnem/Документы/add-ons Firefox/addon-sdk-1.17/examples/reading-data/lib/main.js",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/--youtube.xml",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/stack-overflow.xml",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/mozilla-developer-network.xml",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/github.xml",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/itf---international-tennis-federation.xml",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/how-to-add-search-engine-in-firefox-ajax-----google.xml",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/firefox-.xml",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/odds-portal-search-result.xml",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/myscoreru.xml",
+		"/home/sotnem/.mozilla/firefox/f4wsp4od.default/searchplugins/myscoreru-------live.xml",
+		"/home/sotnem/.cache/.fr-InHdaw/resources/gsearch/data/panel.html",
+		"/home/sotnem/.cache/.fr-wkVQeA/chrome/content/tineyeSearch.xul"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"+",
+			"Posting",
+			"%></",
+			"'/",
+			"post",
+			"belongs_to",
+			"ight",
+			" </"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"%2B"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 166.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

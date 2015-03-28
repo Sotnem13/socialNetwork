@@ -1,0 +1,7 @@
+<%= form_tag({action: :upload_photo}, multipart: true) do %>
+  <%= file_field_tag :photo %>
+  <%= label_tag "Album Name:" %>
+  <%= text_field_tag :album %>
+  <%= submit_tag "Upload "%>
+<% end %>
+ 

@@ -3,6 +3,7 @@ class FriendsController < ApplicationController
 
 	def index
 		@friends = Friend.where( user1_id: current_user.id )
+		@edit = true
 	end
 
 	def show
@@ -13,6 +14,7 @@ class FriendsController < ApplicationController
 	def destroy
 		@friends = Friend.where( user1_id: current_user.id, user2_id: params[:user_id] ).take
 		@friends.destroy
+
 		redirect_to :back
 	end
 

@@ -1,0 +1,17 @@
+<% messages.each do |message| %>
+<% owner = message.user %>
+<li class="left clearfix"><span class="chat-img pull-left">
+    <%= link_to image_tag(  user_ava( owner ) , class: 'meta_image' ), owner %> 
+    </span>
+    <div class="chat-body clearfix">
+        <div class="header">
+            <strong class="primary-font"> <%= link_to "#{owner.firstname} #{owner.lastname}", owner %></strong> 
+            <small class="pull-right text-muted"><span class="glyphicon glyphicon-time"></span><%= message.created_at %></small>
+        </div>
+        <p>
+            <%= message.content %>     
+        </p>
+
+    </div>
+</li>
+<% end  %>
