@@ -33,10 +33,13 @@ class PhotosController < ApplicationController
 		photo = Photo.new
 		photo.album = album
 		photo.user = current_user
-		photo.url = "/photos/#{if Photo.last.nil? do 0 else Photo.last.id end }"
+		if Photo.last.nil? 
+			photo.url = "/photos/0"
+		else
+			photo.url = "/photos/#{Photo.last.id}"
+		end
 		uploaded_io = params[:photo]
-
-  		File.open(Rails.root.join('public', 'photos', Photo.last.id.to_s), 'wb') do |file|
+		File.open(Rails.root.join('public', 'photos', Photo.last.id.to_s), 'wb') do |file|
     		file.write(uploaded_io.read)
   		end
   		flash[:success] = "Uploaded"
