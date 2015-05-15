@@ -29,7 +29,7 @@ gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-
+gem 'pry'
 gem 'bootstrap-sass', '~> 3.3.3'
 
 # Use unicorn as the app server

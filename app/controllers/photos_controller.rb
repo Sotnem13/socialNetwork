@@ -49,7 +49,7 @@ class PhotosController < ApplicationController
 	end
 
 	def destroy
-		
+		binding.pry 
 		Photo.find_by_id( params[:photo_id] ).destroy
 		redirect_to :back
 	
@@ -62,13 +62,6 @@ class PhotosController < ApplicationController
 	
 	end
 
-	def upload_photo
-		
-	end
-
-	def upload_ava
-		
-	end
 
 
 
